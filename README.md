@@ -5,7 +5,7 @@
 宾夕法尼亚大学 · 应用数学与计算机 硕士
 犹他大学 · 金融 / 数学 / 工商管理 学士
 
-在做两件事：把自适应学习做成一整套可运行的系统；把具身智能的技术脉络整理成中文。
+在做三件事：把自适应学习做成一整套可运行的系统；把具身智能的技术脉络整理成中文；把一个说不清对错的领域做成说得清对错的引擎。
 
 ---
 
@@ -35,6 +35,22 @@
 含强化学习基础四篇（TRPO / A3C / DDPG / MPC）、21 篇论文的演进地图、SO-101 造机选型与 BOM、仿真训练算力实测、30 天游戏化学习计划。引用数值均标注页码 / 章节号来源。
 
 → [github.com/WEIWEI0614/robot-learning-desk](https://github.com/WEIWEI0614/robot-learning-desk)
+
+### bazi-ziwei-engine — 八字与紫微交叉验证的命理引擎
+
+两套通常各说各话的体系，从同一个出生时刻排出，再互相印证。**关键不是算得更准，而是这个模型敢被检验**：填几条真实经历，它给自己打分，并列出算错的年份。
+
+| | |
+|---|---|
+| 历法 | 截断 VSOP87 求太阳视黄经（含章动 / 光行差 / FK5 修正），节气牛顿迭代，不查表 |
+| 校验 | 四柱 3,000 例对 lunar-python 零误差；紫微 700 张盘对 iztro，除 1 张朔日临界外全对 |
+| 评分 | 格位（成格 / 破格 / 救应）与强度（七维）分开算，不取平均 |
+| 交付 | 零依赖 CLI · 深色双语 Web · Agent Skill · MCP server |
+| 许可 | MIT |
+
+在线演示 → [weiwei0614.github.io/bazi-ziwei-engine](https://weiwei0614.github.io/bazi-ziwei-engine/)
+
+→ [github.com/WEIWEI0614/bazi-ziwei-engine](https://github.com/WEIWEI0614/bazi-ziwei-engine)
 
 ---
 
